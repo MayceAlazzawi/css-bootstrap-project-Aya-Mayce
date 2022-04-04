@@ -66,3 +66,17 @@ SVG {
   background-color: rgb(19, 168, 194);
   color: white;
 }
+
+.cards {
+  background-color: #f3f5fa;
+}
+
+@media (max-width: 767px) {
+  .mustafa {
+    text-align: center;
+  }
+  .reverseRow {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+}
