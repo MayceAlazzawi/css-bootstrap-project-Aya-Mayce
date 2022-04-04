@@ -60,15 +60,15 @@ SVG {
   color: rgb(116, 114, 114);
 }
 
-.moreBtn {
-  margin-bottom: 100px;
+.getStartedbtn {
+  margin-bottom: 100px !important;
   border-radius: 30px !important;
-  background-color: rgb(19, 168, 194);
-  color: white;
+  background-color: rgb(19, 168, 194) !important;
+  color: white !important;
 }
 
 .cards {
-  background-color: #f3f5fa;
+  background-color: #f3f5fa; 
 }
 
 @media (max-width: 767px) {
