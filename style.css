@@ -14,6 +14,11 @@ body {
   background-color: #34507f !important;
 }
 
+.mayce {
+  display: flex;
+  
+}
+
 SVG {
   color: white;
 }
