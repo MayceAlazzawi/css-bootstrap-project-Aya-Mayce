@@ -4,8 +4,11 @@
 }
 
 body {
-  font-family: sans-serif;
-}
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    font-family: sans-serif;
+  }
 
 #nav-bar {
   position: sticky;
@@ -80,3 +83,92 @@ SVG {
     margin: 0 auto;
   }
 }
+
+.CallToAction{
+    height: 500px;
+    align-items: center;
+    background-image: url('./images/CallToActionBGImage.png');
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    color: white;
+}
+
+.JoinNewsletter{
+    height: 300px;
+    background-color: #f3f5fa;
+    text-align: center;
+    padding-top: 75px;
+}
+
+#btnCalltoaction{
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    border-radius: 50px;
+    height: 55px;
+    width: 180px;
+    
+}
+
+.JoinTitle{
+    color:#2b3f62;
+}
+
+.JoinParagraph{
+    color:black;
+}
+
+footer{
+    height: 350px;
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+}
+
+.CallParagraph{
+    padding-top: 10px;
+}
+
+.inputtext{
+    width: 100%;
+    border: 0;
+    border-radius: 50px;
+    height: 40px;
+}  
+
+.inputbutton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    padding: 0 30px;
+    background: #47b2e4;
+    color: #fff;
+    border-radius: 50px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: start;
+}
+
+@media (max-width: 850px){
+.CallParagraph, .CallHeader,#btnCalltoaction{
+    text-align: center;
+}
+}
+
+form{
+    width: 50%;
+    margin-top: 20px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    display:inline-block;
+    border-radius: 50px;
+}
+
