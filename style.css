@@ -121,13 +121,12 @@ SVG {
 }
 
 footer{
-    height: 350px;
-    padding-top: 90px;
+    height: 550px;
+    padding-top: 150px;
     padding-right: 0px;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
     padding-left: 0px;
     background-color: white;
-    border-color: white;
 }
 
 .CallParagraph{
