@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #34507f !important;
+}
+
+SVG {
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  color: white !important;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.home {
+  color: rgb(19, 168, 194) !important;
+}
+
+.navbar-nav li a {
+  color: white;
+}
+
+.nav-link.border.border-info {
+  border-radius: 30px !important;
+  border: 2px solid rgb(19, 168, 194) !important;
+}
+
+.banner {
+  background-color: #34507f;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.promo-title {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.weare {
+  color: rgb(206, 203, 203);
+}
+
+.examplsP {
+  color: rgb(116, 114, 114);
+}
+
+.getStartedbtn {
+  margin-bottom: 100px !important;
+  border-radius: 30px !important;
+  background-color: rgb(19, 168, 194) !important;
+  color: white !important;
+}
+
+.cards {
+  background-color: #f3f5fa; 
+}
+
+@media (max-width: 767px) {
+  .mustafa {
+    text-align: center;
+  }
+  .reverseRow {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+}
